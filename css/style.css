@@ -1,0 +1,236 @@
+body
+{
+font-family: 'Montserrat', sans-serif;
+}
+div {
+    margin: 0 auto;
+    width: 1160px;
+}
+
+
+
+.Bitmap {
+  width: 150px;
+  height: 134px;
+  object-fit: contain;
+}
+
+#btn1 {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+/* Custom */
+#btn1 {
+  display: inline-block;
+  position: relative;
+  padding: 13px 50px;
+  top: 0;
+  font-size: 14px;
+
+  border-radius: 4px;
+  border-bottom: 1px solid rgba( 28, 227, 125, 0.5 );
+  background-image: linear-gradient(to right, #071e50, #195783);
+  color: #fff;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.1 );
+  
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+          transform: translateZ(0);
+  
+  -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+#btn1:hover {
+  top: -10px;
+  box-shadow: 0px 10px 10px rgba( 15, 165, 60, 0.2 );
+  
+  -webkit-transform: rotateX(1deg);
+     -moz-transform: rotateX(1deg);
+      -ms-transform: rotateX(1deg);
+          transform: rotateX(1deg);
+}
+
+#btn1:active {
+  top: 0px;
+  box-shadow: 0px 0px 0px rgba( 15, 165, 60, 0.0 );
+  background: rgba( 20, 224, 133, 1 );
+}
+
+
+.fold1
+{
+    height: 590px;  
+   
+}
+.fold1_text
+{
+   width: 400px; 
+   margin-top:200px; 
+   margin-left:40px; 
+   height: 160px; 
+   float:left; 
+   
+   
+}
+.fold1_slider
+{
+    width: 700px;
+    float: left; 
+    height:550px;
+}
+
+.fold2
+{
+    height: 800px;
+    background-image: ('img/group-8.png'); 
+    overflow: auto;
+}
+
+.fold2_text
+{
+    height:150px;
+    width: 800px;
+    margin-top:50px;
+}
+
+.fold2_main
+{
+   height: 200px;
+   margin-top: 30px;  
+}
+.fold2_space
+{
+    height: 200px;
+    width: 100px;
+    float: left;
+}
+.fold2_img
+{
+    height: 150px; 
+    margin-left: 64px; 
+    width: 160px; 
+    float: left;
+}
+.fold2_img_text
+{
+    height: 50px; 
+    width: 160px;
+    text-align: center;
+}
+
+.fold3
+{
+   height: 900px; 
+   overflow:hidden; 
+}
+.fold3_text
+{
+    height: 280px; 
+    margin-top: 320px; 
+    float: left; 
+    width:501px; 
+    margin-left: 40px;
+}
+.fold3_bigtext
+{
+    height: 180px; 
+    width: 501px;
+}
+.fold3_button
+{
+    height: 50px;
+    margin-top: 50px; 
+    width: 210px;
+    float: left
+}
+.fold4
+{
+     height:2000px; 
+     overflow: hidden;
+}
+.fold4_text_banner
+{
+     height: 120px; 
+     width: 1120px;
+}
+.fold4_text_left
+{
+    height: 102px; 
+    margin-left: 40px; 
+    width: 441px; 
+    float: left;
+}
+.fold4_text_right
+{
+    height: 120px; 
+    width:502px; 
+    margin-left: 137px; 
+    float: left;
+}
+
+.fold5
+{
+  height: 420px;  
+  margin-top: 175px; 
+  overflow: hidden;  
+}
+.fold5_ftxt
+{
+    height: 51px;
+    width: 356px; 
+    margin-top: 51px;
+}
+.fold5_imgdiv
+{
+    height: 215px; 
+
+    margin-top: 80px;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+ 
+}
+
+#btn {
+  width: 140px;
+  height: 45px;
+  
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+/*#btn:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}*/
+
+.Group-10 {
+  width: 100%;
+  height: 77px;
+  object-fit: contain;
+}
+
